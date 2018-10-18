@@ -1,13 +1,47 @@
 body {
     font-family: Helvetica, Arial, Sans-Serif;
 }
+
 #title {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     font-style: sans-serif;
-    text-align: center;
 }
+
 #title h1 {
     padding: 100px;
     margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+#scoreboard {
+    width: 300px;
+}
+
+#guess {
+    flex-grow: 1;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.page {
+    width: 80%;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.inline-list dd, .inline-list dt {
+    display: inline-block;
+}
+
+.inline-list dt {
+    width: 80px;
 }

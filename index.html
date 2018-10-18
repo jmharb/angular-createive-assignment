@@ -10,21 +10,56 @@
 <body>
 
     <main ng-controller="MainController">
-        <header id="title" class="bg-color1">
+        <header id="title" class="bg-color1 center">
             <h1>Rock Paper Scissors</h1>
         </header>
-        <aside id="scoreboard">
 
-        </aside>
-        <section id="guess">
+        <div class="page">
+            <section class="row">
+                <div class="col" id="scoreboard">
+                    <h1>Scoreboard</h1>
 
-        </section>
-        <section id="computer-choice">
+                    <dl class="inline-list">
+                        <div>
+                            <dt>User</dt>
+                            <dd>{{score.user}}</dd>
+                        </div>
+                        <div>
+                            <dt>Computer</dt>
+                            <dd>{{score.computer}}</dd>
+                        </div>
+                    </dl>
+                </div>
 
-        </section>
-        <section id="results">
+                <div class="col" id="guess">
+                    <h1 class="center">Choose your guess</h1>
+                    <div class="row space-between">
+                        <div class="col">
+                            <div class="option">
+                                <img src="https://via.placeholder.com/200x200">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="option">
+                                <img src="https://via.placeholder.com/200x200">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="option">
+                                <img src="https://via.placeholder.com/200x200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        </section>
+            </section>
+            <section id="computer-choice">
+
+            </section>
+            <section id="results">
+
+            </section>
+        </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="./index.js"></script>
