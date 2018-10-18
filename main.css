@@ -1,0 +1,13 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+#title {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: sans-serif;
+    text-align: center;
+}
+#title h1 {
+    padding: 100px;
+    margin: 0;
+}
