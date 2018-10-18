@@ -34,7 +34,7 @@ body {
     margin: auto;
 }
 
-.center {
+.text-center {
     text-align: center;
 }
 
@@ -44,4 +44,8 @@ body {
 
 .inline-list dt {
     width: 80px;
+}
+
+.center {
+    justify-content: center;
 }
